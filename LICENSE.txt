@@ -1,3 +1,5 @@
+Copyright (c) 2017 JimmyJiao.@jim1949@163.com
+
 Copyright (c) 2014 Pololu Corporation.  For more information, see
 
 http://www.pololu.com/
