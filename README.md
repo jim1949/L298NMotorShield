@@ -4,6 +4,10 @@ This is the L298N motor for the Arduino library, this can be used later for ROS 
 # Arduino library for the L298N Motor Driver Shield
 
 changed from pololu driver
+Version: 1.0.0<br>
+Release Date: 2017-01-06<br>
+
+From
 Version: 2.0.0<br>
 Release Date: 2016-08-16<br>
 [![Build Status](https://travis-ci.org/pololu/dual-vnh5019-motor-shield.svg?branch=master)](https://travis-ci.org/pololu/dual-vnh5019-motor-shield)<br>
@@ -98,10 +102,10 @@ detected, a message is sent over serial.
 
 ## Version history
 
-##For L298N Motor shield
+###For L298N Motor shield
 * 1.0.0 (2017-01-05): Updated library for L298N Motor shield with the Arduino Library.
 
-##For Dual-vnh5019-motor-shield:
+###For Dual-vnh5019-motor-shield:
 * 2.0.0 (2016-08-16): Updated library to work with the Arduino Library manager.
 * 1.2.4 (2016-08-10): Added continuous integration testing. Thanks photodude.
 * 1.2.3 (2014-03-24): Added 20 kHz PWM support for ATmega32U4. Thanks blacksound.
