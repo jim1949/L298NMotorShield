@@ -1,14 +1,14 @@
-#ifndef DualVNH5019MotorShield_h
-#define DualVNH5019MotorShield_h
+#ifndef L298NMotorShield_h
+#define L298NMotorShield_h
 
 #include <Arduino.h>
 
-class DualVNH5019MotorShield
+class L298NMotorShield
 {
   public:  
     // CONSTRUCTORS
-    DualVNH5019MotorShield(); // Default pin selection.
-    DualVNH5019MotorShield(unsigned char INA1, unsigned char INB1, unsigned char EN1DIAG1, unsigned char CS1, 
+    L298NMotorShield(); // Default pin selection.
+    L298NMotorShield(unsigned char INA1, unsigned char INB1, unsigned char EN1DIAG1, unsigned char CS1, 
                            unsigned char INA2, unsigned char INB2, unsigned char EN2DIAG2, unsigned char CS2); // User-defined pin selection. 
     
     // PUBLIC METHODS

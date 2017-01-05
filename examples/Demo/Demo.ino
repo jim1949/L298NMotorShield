@@ -1,6 +1,6 @@
-#include "DualVNH5019MotorShield.h"
+#include "L298NMotorShield.h"
 
-DualVNH5019MotorShield md;
+L298NMotorShield md;
 
 void stopIfFault()
 {
@@ -19,7 +19,7 @@ void stopIfFault()
 void setup()
 {
   Serial.begin(115200);
-  Serial.println("Dual VNH5019 Motor Shield");
+  Serial.println("L298N Motor Shield");
   md.init();
 }
 
